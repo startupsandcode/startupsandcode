@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "public",
+    "site": "sandboxsaga",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

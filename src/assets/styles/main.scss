@@ -1,0 +1,32 @@
+$primary-color: #fff;
+
+@font-face {
+	font-family: "MyFont";
+	src: url("../fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+}
+
+body {
+	font-family: "MyFont";
+	color: $primary-color;
+	background-color: black;
+}
+
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.header {
+	color: $primary-color;
+	width: 100%;
+	text-align: center;
+}
+
+.logo {
+	padding: 10px;
+	float: left;
+	width: 20%;
+	min-width: 100px;
+}
