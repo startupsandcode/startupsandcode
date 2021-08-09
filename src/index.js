@@ -31,4 +31,4 @@ const firebaseConfig = {
 	measurementId: "G-KRXGEC3S6B"
 };
 firebase.initializeApp(firebaseConfig);
-document.body.appendChild(component());
+//document.body.appendChild(component());

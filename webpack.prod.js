@@ -10,7 +10,11 @@ module.exports = merge(common, {
 		path: path.resolve(__dirname, 'public'),
 		clean: true,
 	},
-	plugins: [new MiniCssExtractPlugin({ filename: "[name].[contenthash].css" })],
+	plugins: [
+		new MiniCssExtractPlugin({
+			filename: "[name].[contenthash].css"
+		}),
+	],
 	module: {
 		rules: [
 			{
