@@ -33,7 +33,7 @@ ssh-keygen -t ed25519 -C "your-email@domain.com"
 ``` firebase login ```
 
 * Clone repo:   
-git clone https://github.com/lotekmedia/startupsandcode.git
+git clone https://github.com/startupsandcode/startupsandcode.git
 
 * Run Yarn:
 ``` yarn ```

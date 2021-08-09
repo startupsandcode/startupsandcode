@@ -16,9 +16,8 @@ function component() {
 	myLogo.src = Logo;
 	myLogo.classList.add('logo');
 
-	element.appendChild(myLogo);
 	element.appendChild(header);
-
+	element.appendChild(myLogo);
 	return element;
 }
 const firebaseConfig = {
@@ -32,4 +31,4 @@ const firebaseConfig = {
 	measurementId: "G-KRXGEC3S6B"
 };
 firebase.initializeApp(firebaseConfig);
-//document.body.appendChild(component());
+document.body.appendChild(component());
