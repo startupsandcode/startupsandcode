@@ -7,24 +7,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.prod.js",
-    "start": "webpack serve --config webpack.dev.js --open"
+    "start": "webpack serve --config webpack.dev.js --open --hot"
   },
-  "repository": "git+https://github.com/lotekmedia/startupsandcode.git",
+  "repository": "git+https://github.com/startupsandcode/startupsandcode.git",
   "author": "John Mann <me@johnmann.org>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lotekmedia/startupsandcode/issues"
+    "url": "https://github.com/startupsandcode/startupsandcode/issues"
   },
-  "homepage": "https://github.com/lotekmedia/startupsandcode#readme",
+  "homepage": "https://github.com/startupsandcode/startupsandcode#readme",
   "dependencies": {
     "clean-webpack-plugin": "^4.0.0-alpha.0",
-    "copy-webpack-plugin": "^9.0.1",
     "css-loader": "^5.1.1",
     "firebase": "^8.2.9",
     "html-loader": "^2.1.1",
     "html-webpack-plugin": "^5.2.0",
     "lodash": "^4.17.21",
-    "mini-css-extract-plugin": "^2.2.0",
     "sass-loader": "^11.0.1",
     "style-loader": "^2.0.0",
     "webpack": "^5.24.2",
