@@ -10,7 +10,7 @@ $primary-color: #fff;
 body {
 	font-family: "MyFont";
 	color: $primary-color;
-	background-color: #DDD;
+	background-color: #333;
 }
 
 .container {
@@ -26,7 +26,6 @@ body {
 
 .logo {
 	padding: 10px;
-	float: left;
 	width: 20%;
 	min-width: 100px;
 }

@@ -10,6 +10,11 @@ module.exports = merge(common, {
 		filename: 'main.js',
 		path: path.resolve(__dirname, 'public'),
 	},
+	devServer: {
+		contentBase: './public',
+		hot: true,
+		open: true,
+	},
 	module: {
 		rules: [
 			{
