@@ -28,6 +28,16 @@ If you're learning web development, this repo illustrates:
 - ✅ Asset bundling with loaders and plugins
 - ⚠️ Why managed frameworks became popular (complexity reduction)
 
+## Other Projects
+
+Check out my other public repositories:
+
+1. **[codex-usage-plugin](https://github.com/startupsandcode/codex-usage-plugin)** — A simple plugin to track your Codex usage in VS Code
+2. **[status_sage_v2](https://github.com/startupsandcode/status_sage_v2)** — Status Sage - Abacus.ai version
+3. **[pttrak](https://github.com/startupsandcode/pttrak)** — Tracking application
+4. **[CashCritters-V2](https://github.com/startupsandcode/CashCritters-V2)** — Cash Critters App
+5. **[react](https://github.com/startupsandcode/react)** — A declarative, efficient, and flexible JavaScript library for building user interfaces
+
 ---
 
 *Built with ❤️ during the early days of modern web development*
