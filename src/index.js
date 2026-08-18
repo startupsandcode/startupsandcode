@@ -20,15 +20,5 @@ function component() {
 	element.appendChild(myLogo);
 	return element;
 }
-const firebaseConfig = {
-	apiKey: "AIzaSyBEDRiaduCqqxPRDOV_ulklN56Vg_rB-B0",
-	authDomain: "johnmann-prod.firebaseapp.com",
-	databaseURL: "https://johnmann-prod.firebaseio.com",
-	projectId: "johnmann-prod",
-	storageBucket: "johnmann-prod.appspot.com",
-	messagingSenderId: "891266769747",
-	appId: "1:891266769747:web:592bd33f20a25af4c4b7a6",
-	measurementId: "G-KRXGEC3S6B"
-};
-firebase.initializeApp(firebaseConfig);
+// Firebase config removed - project archived
 //document.body.appendChild(component());

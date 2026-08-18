@@ -1,53 +1,33 @@
-# startupsandcode
-My Startups and Code Repo - will have steps, branches, and various tutorials
+# Startups and Code
 
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+> 📦 **Archived Project** — A historical snapshot of early web development experiments
 
-## Starting for COMPLETE SCRATCH:
+## Overview
 
-* Install VS Code:
-https://code.visualstudio.com/
+This repository represents an early-stage multi-page web application built with Webpack and Firebase hosting. It includes a portfolio section and experimental TV show content—a window into web development from several years ago.
 
-* Create SSH Key:
-ssh-keygen -t ed25519 -C "your-email@domain.com"
+## What's Inside
 
-* Create ssh key:   
-```touch ~/.ssh/config```
+- **Webpack-based bundler** — Automated build pipeline with dev server
+- **Multi-page architecture** — Portfolio and content sections
+- **Sass styling** — SCSS preprocessor for modular CSS
+- **Firebase integration** — Original Firebase Realtime Database configuration (now deprecated)
 
-* Add to github:   
-``` pbcopy < ~/.ssh/id_ed25519.pub ```
+## Why It's Archived
 
-* Install ZSH:   
-``` sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" ```
+This project represents an earlier era of web development. Modern approaches have evolved significantly:
+- **Frameworks**: Next.js, Remix, and other meta-frameworks now dominate
+- **Build tools**: Vite and similar tools offer faster development experiences
+- **Hosting**: Vercel, Netlify, and serverless platforms provide better DX
 
-* Install Node:   
-``` https://nodejs.org/en/download/```
+## Lessons from This Project
 
-* Install Yarn:   
-``` sudo npm install --global yarn ```
+If you're learning web development, this repo illustrates:
+- ✅ Manual webpack configuration (now abstracted by most frameworks)
+- ✅ Static site generation and multi-page applications
+- ✅ Asset bundling with loaders and plugins
+- ⚠️ Why managed frameworks became popular (complexity reduction)
 
-* Install Firebase CLI:   
-``` sudo npm install --global firebase-tools```
+---
 
-* Firebase login:   
-``` firebase login ```
-
-* Clone repo:   
-git clone https://github.com/startupsandcode/startupsandcode.git
-
-* Run Yarn:
-``` yarn ```
-
-* Run Yarn Build:   
-``` yarn build ```   
-(this will output to public for deployment)
-
-* Firebase Init:   
-``` firebase init ```
-
-You'll need to change it for your hosting project.
-
-* Firebase Deploy:   
-``` firebase deploy ```
-
-### Tada - Site is now live. ;-)
+*Built with ❤️ during the early days of modern web development*
